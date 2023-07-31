@@ -1,0 +1,165 @@
+/* h1{
+    color: red;
+    font-size: 40px;
+}
+.bod3
+{
+    background-color: pink;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+}
+/* .container1 {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+} */
+
+.box1 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box1 > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box1 > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box1:hover { flex: 1 1 50%; }
+.box1:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ */
+  /* Styling the area of the slides */
+  .navigation a {
+    position: left;
+    font-size: 1.6em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    left: 500px;
+    top:10px;
+    border-radius: 2px;
+    padding: 2px;
+}
+.navigation
+{
+    height: 5cm;
+}
+.head
+{
+    background-color: rgba(0,0,0,0.5);
+}
+.bod5
+{
+    /* background-image: url(back1.jpg); */
+   background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh;
+}
+.navigation a::after {
+    content: " ";
+    position: fixed;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform.5s; 
+}
+.navigation a:hover {
+    transform: scaleX(1);
+    color:black;
+    border-bottom: 5px solid rgb(13, 1, 1);
+    /* color: rgb(255, 255, 255); */
+}
+  #slideshow {
+  overflow: hidden;
+  height:800px;
+  width: 728px;
+  margin: 0 auto;
+  margin-top: 3cm;
+  }
+  .bod3
+  {
+    /* background-color: rgb(255, 173, 252); */
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 753px;;
+  }
+  .slide {
+  float: left;
+  height:800px;
+  width: 728px;
+  }
+ 
+  .slide-wrapper {
+  
+  width: calc(728px * 8);
+  
+  animation: slide 30s ease infinite;
+  }
+ 
+  @keyframes slide {
+  
+  /* Calculate the margin-left for
+  each of the slides */
+  10% {
+    margin-left: 0px;
+  }
+  
+  20% {
+    margin-left: calc(-728px * 1);
+  }
+  
+  30% {
+    margin-left: calc(-728px * 2);
+  }
+  
+  40% {
+    margin-left: calc(-728px * 3);
+  }
+  50% {
+    margin-left: calc(-728px * 4);
+  }
+  60% {
+    margin-left: calc(-728px * 5);
+  }
+  70% {
+    margin-left: calc(-728px * 6);
+  }
+  80% {
+    margin-left: calc(-728px * 7);
+  }
+  }
+
+.heig
+{
+    width:2cm;
+    height:6cm;
+}
+  

@@ -1,0 +1,161 @@
+.reservation-container {
+    display: flex;
+    background-color: #f9f9f9;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .navigation1 a {
+    position: relative;
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    left: 900px;
+    top:10px;
+    border-radius: 2px;
+    padding: 2px;
+}
+.navigation1
+{
+   background-color:rgb(8, 46, 81);
+    height:2cm;
+    /* 246 93 118 */
+}
+.navigation1 .navcon{
+  margin-top: -1cm;
+}
+
+.navigation1 a::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform.5s;
+}
+.navigation1 a:hover {
+  transform: scaleX(1);
+  color:sandybrown;
+  /* border-bottom: 5px solid rgb(255, 255, 255); */
+  /* color: rgb(255, 255, 255); */
+}
+
+  .heading {
+    font-size:200px;
+    margin-bottom: 20px;
+    
+  }
+  .bod9
+  {
+    /* background-image: url("log1.jpg"); */
+    background-size: cover;
+    height: 109vh;
+  }
+  .reservation-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding:1cm;
+    font-size:0.5cm;
+    color:#f9f9f9;
+  }
+  
+  .form-group {
+    margin-right:1cm;
+    /* margin-left:1cm; */
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+#name,#email,
+  input[type="date"],
+  input[type="number"],
+  input[type="time"],
+  select {
+    padding: 5px;
+    border: 1px solid #22a3ba;
+    border-radius:40px;
+    height:1cm;
+    display:inline;
+    width:6cm;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #1f9dcb;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .reserved-tables {
+    margin-top: 20px;
+  }
+  
+  .reservation-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius:30px;
+  }
+  .hea
+  {
+    background-color: rgb(0, 0, 0);
+    
+  }
+  .hea h2
+  {
+    background-color: rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    
+  }
+  .clr{
+    background-color:rgba(25, 20, 20, 0.7);
+    border-radius:3cm;
+    position: absolute;
+    padding:2cm;
+    width: 14cm;
+    margin-left: 12cm;
+  }
+  .form-group button{
+    width: 100%;
+    background-color: rgb(11, 148, 186);
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 1cm;
+    border-radius:30px;
+  }
+
+  .aapp {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .custom-select {
+    /* Style for the select input */
+    padding:6px;
+    font-size: 16px;
+    border-radius:2cm;
+    margin-left: 2cm;
+    border: 1px solid #ccc;
+  }
+  
+  .custom-select option {
+    /* Style for the options */
+    background-color: #fff;
+    color: #000;
+  }
